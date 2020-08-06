@@ -82,7 +82,7 @@
                const withdrawNumber=getInputNumber("withdrawAmount");
 
                updateSpanTag("currentWithdraw",withdrawNumber);
-               updateSpanTag("currentBalance",-1*withdrawNumber)
+               updateSpanTag("currentBalance",-1*withdrawNumber);
                document.getElementById("withdrawAmount").value="";
             })
             function getInputNumber(id){
